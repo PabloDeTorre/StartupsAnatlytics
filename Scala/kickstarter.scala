@@ -6,8 +6,6 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object kickstarter {
 
-  val PRICE_SQ_FT = "Price SQ Ft"
-
   def main(args: Array[String]) {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
