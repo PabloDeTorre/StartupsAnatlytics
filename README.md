@@ -1,6 +1,6 @@
 # StartupsAnatlytics
 
-Nuestro proyecto se compone de tres scripts, dos de ellos programados en Python y uno en Scala. En todos utilizamos el algoritmo de map-reduce sobre Spark. Para el correcto funcionamiento de ellos necesitaremos tener descargado el fichero csv que contiene los datos de los proyectos, descargable en este [enlace] (https://www.kaggle.com/kemical/kickstarter-projects) (también se encuentra en el repositorio).
+Nuestro proyecto se compone de tres scripts, dos de ellos programados en Python y uno en Scala. En todos utilizamos el algoritmo de map-reduce sobre Spark. Para el correcto funcionamiento de ellos necesitaremos tener descargado el fichero csv que contiene los datos de los proyectos, descargable en este [enlace](https://www.kaggle.com/kemical/kickstarter-projects) (también se encuentra en el repositorio).
 
 ## Script 1 - Éxito de proyectos
 El primer script tiene el objetivo de encontrar cuáles son los tipos de proyectos que más funcionan. Para ello, limpia el csv, obtiene todos los proyectos que han llegado a completarse al 100%, calcula sus beneficios, y los agrupa por categoría.Para ejecutar el script basta con ejecutar en nuestra máquina virtual:
